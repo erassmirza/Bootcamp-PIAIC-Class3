@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Dinner dishName="Chicken Biryani" sweetDish="Kheer"/>
-        <Dinner dishName="Nihari" sweetDish="Gajar ka halwa"/>
-        <Dinner dishName="Chicken Pulao" sweetDish="Rasmalai"/>
+        <h2>TODAY's STARTER</h2>
+        <Dinner dealNo="01" dishName="CHICKEN BIRYANI" sweetDish="KHEER" coldDrink="1.5l PEPSI/7UP/COKE"/>
+        <Dinner dealNo="02" dishName="NIHARI" sweetDish="GAJAR KA HALWA" coldDrink="1.5l PEPSI/7UP/COKE"/>
+        <Dinner dealNo="03" dishName="BEAF BIRYANI" sweetDish="RASMALAI" coldDrink="1.5l PEPSI/7UP/COKE"/>
 
       </header>
     </div>
